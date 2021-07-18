@@ -5,7 +5,8 @@ from scipy.special import gamma
 import matplotlib.pyplot as plt
 from tempfile import TemporaryFile
 
-path = "/Users/tanchen/PycharmProjects/Fractional/8_zeros_10k_rev/nnet_train_full.pth"
+####### replace the path ############
+path = "/Users/tanchen/PycharmProjects/Fractional/8_zeros_10k_rev/nnet_train_full.pth" 
 
 class SymmetricNet(torch.nn.Module):
     def __init__(self, D_in, H, D_out):
